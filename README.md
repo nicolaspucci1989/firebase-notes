@@ -17,3 +17,7 @@ This url is used by the `generateSignInWithEmailLink` function in the auth and c
 ```javascript
  auth.generateSignInWithEmailLink(email, actionCode)
  ```
+### Resources region
+Set region for resources.  
+Client `getFunctions(app, "southamerica-east1")`  
+Functions `functions.region("southamerica-east1")`  
